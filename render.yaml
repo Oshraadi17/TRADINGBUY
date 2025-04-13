@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: tradingbuy-app
+    env: node
+    plan: standard
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    autoDeploy: true
